@@ -1,15 +1,15 @@
 # Eminem gei test
 
 
-### Español / Spanish
+### Espanol / Spanish
 Eminem, el dios del rap quiere preguntarte algo...
 
 Gracias a mistik por la idea.
-Traducción al inglés por Uproxide
+Traduccion al ingles por Uproxide
 
-Vaya a la configuración de Mod para alternar español o inglés
+Vaya a la configuración de Mod para alternar espanol o ingles
 
-## English / Inglés
+## English / Ingles
 Eminem, the god of rap wants to ask you something...
 
 Thanks to mistik for the idea.
