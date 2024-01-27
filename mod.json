@@ -1,0 +1,14 @@
+{
+	"geode": "2.0.0-beta.9",
+	"gd": "2.204",
+	"version": "v1.0.0",
+	"id": "elnexreal.eminemgeitest",
+	"name": "Eminem gei test",
+	"developer": "elnexreal",
+	"description": "Eminem quiere preguntarte si eri gey, ¿Podras responderle?",
+	"resources": {
+		"sprites": [
+			"resources/*.png"
+		]
+	}
+}
