@@ -41,19 +41,19 @@ class $modify(buttonHandler, MenuLayer){
 			});
 		} else {
 			geode::createQuickPopup(
-			"Gey Test",
-			"Are u gey?",
-			"Yes", "No",
+			"gey test",
+			"ar u gey?",
+			"ye", "non",
 			[](bool btn1, bool btn2) {
 				if (btn2) {
 					log::info("Btn2");
-					FLAlertLayer::create("Gey Test", "Congratulations, you are not a homo, enjoy your heterosexuality", "Ok")->show();
+					FLAlertLayer::create("gey test", "congratulations, you are not a homo, enjoy your heterosexuality", "Ok")->show();
 					return;
 				}
 				log::info("Btn1");
-				FLAlertLayer::create("Gey Test", "You're a homo, go suck crazy dick", "Ok")->show();
+				FLAlertLayer::create("gey test", "you're a homo, go suck crazy dick", "Ok")->show();
 			});
 		}
-		
+
 	}
 };
