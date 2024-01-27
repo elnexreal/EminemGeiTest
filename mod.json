@@ -14,7 +14,7 @@
 	"settings": {
         "toggle": {
             "name": "Toggle Language | Alternar idioma",
-            "description": "Toggle Between English and Spanish | Alternar entre inglés y español",
+            "description": "Toggle Between English and Spanish | Alternar entre ingles y espanol",
             "type": "bool",
             "default": false
         }

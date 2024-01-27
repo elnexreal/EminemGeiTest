@@ -24,7 +24,7 @@ class $modify(buttonHandler, MenuLayer){
 	void onButtonClick(CCObject* sender) {
 		auto value = Mod::get()->getSettingValue<bool>("toggle");
 
-		if (value)
+		if (!value)
 		{
 			geode::createQuickPopup(
 			"gey test",
