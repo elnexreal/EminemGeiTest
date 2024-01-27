@@ -10,5 +10,13 @@
 		"sprites": [
 			"resources/*.png"
 		]
+	},
+	"settings": {
+        "toggle": {
+            "name": "Toggle Language | Alternar idioma",
+            "description": "Toggle Between English and Spanish | Alternar entre ingles y espanol",
+            "type": "bool",
+            "default": false
+        }
 	}
 }
