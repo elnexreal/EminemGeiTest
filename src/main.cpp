@@ -22,7 +22,11 @@ class $modify(buttonHandler, MenuLayer){
 	}
 
 	void onButtonClick(CCObject* sender) {
-		geode::createQuickPopup(
+		auto value = Mod::get()->getSettingValue<bool>("toggle");
+
+		if (value)
+		{
+			geode::createQuickPopup(
 			"gey test",
 			"eri gey?",
 			"ci", "non",
@@ -35,5 +39,21 @@ class $modify(buttonHandler, MenuLayer){
 				log::info("Btn1");
 				FLAlertLayer::create("gey test", "sos un homo ve a succionar una pinga loka", "Aceptar")->show();
 			});
+		} else {
+			geode::createQuickPopup(
+			"Gey Test",
+			"Are u gey?",
+			"Yes", "No",
+			[](bool btn1, bool btn2) {
+				if (btn2) {
+					log::info("Btn2");
+					FLAlertLayer::create("Gey Test", "Congratulations, you are not a homo, enjoy your heterosexuality", "Ok")->show();
+					return;
+				}
+				log::info("Btn1");
+				FLAlertLayer::create("Gey Test", "You're a homo, go suck crazy dick", "Ok")->show();
+			});
+		}
+		
 	}
 };
